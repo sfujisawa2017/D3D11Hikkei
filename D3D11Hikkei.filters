@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Window Class">
+      <UniqueIdentifier>{a198e39e-6189-460b-a005-a18bdd06805c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D Class">
+      <UniqueIdentifier>{3d8a4bb9-1a4b-4e5b-b2e1-5f20ac056df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh Class">
+      <UniqueIdentifier>{db733d42-79f0-409d-9359-1b64970f3743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera Class">
+      <UniqueIdentifier>{97b8c6bd-90cd-442a-b300-817ba7dbd2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Director Class">
+      <UniqueIdentifier>{757ee855-56c4-4e90-bfc4-0b92e753b268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Class">
+      <UniqueIdentifier>{86b1d080-b278-4adc-b575-d483680dfc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{14d6a553-0077-464c-870b-bb26f15943af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkinMesh Class">
+      <UniqueIdentifier>{94061f47-6999-4c1a-9b17-2d99b161495d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound Class">
+      <UniqueIdentifier>{ff29d1fb-8b77-4fb7-a784-3f516a8225f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HierarchyMesh Class">
+      <UniqueIdentifier>{34adf5ad-e673-4269-862c-292a82803f8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="00 Source File\WINDOW.cpp">
+      <Filter>Window Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\DIRECT3D11.cpp">
+      <Filter>Direct3D Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\CD3DXMESH.cpp">
+      <Filter>Mesh Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\CAMERA.cpp">
+      <Filter>Camera Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\DIRECTOR.cpp">
+      <Filter>Director Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\DIRECTOR_Stage1.cpp">
+      <Filter>Director Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\BASE.cpp">
+      <Filter>Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\CD3DXSKINMESH.cpp">
+      <Filter>SkinMesh Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\SOUND.cpp">
+      <Filter>Sound Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\CD3DXMESH_ANIM.cpp">
+      <Filter>HierarchyMesh Class</Filter>
+    </ClCompile>
+    <ClCompile Include="00 Source File\Entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00 Source File\WINDOW.h">
+      <Filter>Window Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\DIRECT3D11.h">
+      <Filter>Direct3D Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\CD3DXMESH.h">
+      <Filter>Mesh Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\CAMERA.h">
+      <Filter>Camera Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\DIRECTOR.h">
+      <Filter>Director Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\BASE.h">
+      <Filter>Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\CD3DXSKINMESH.h">
+      <Filter>SkinMesh Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\SOUND.h">
+      <Filter>Sound Class</Filter>
+    </ClInclude>
+    <ClInclude Include="00 Source File\CD3DXMESH_ANIM.h">
+      <Filter>HierarchyMesh Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="03 Shader File\MESH.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="03 Shader File\SKIN.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
